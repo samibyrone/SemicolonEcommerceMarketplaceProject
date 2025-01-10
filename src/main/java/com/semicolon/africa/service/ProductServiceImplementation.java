@@ -75,13 +75,11 @@ public class ProductServiceImplementation implements ProductService{
 
     @Override
     public ProductRemoveResponse deleteProduct(String productId, ProductRemoveRequest productRemoveRequest) {
-        Optional <Product> productDelete = productRepository.findById(productId);
-            if(!productDelete.isPresent()) throw new ProductDoesNotExistException("Product does not exist");
+        Optional <Product> removeProduct = productRepository.findById(productId);
+            if(!removeProduct.isPresent()) throw new ProductDoesNotExistException("Product does not exist");
         productRepository.deleteById(productId);
         ProductRemoveResponse response = new ProductRemoveResponse();
         response.setMessage("Product Successfully Deleted");
         return response;
-
     }
-
 }

@@ -5,79 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0107941b-aa32-43f2-86e3-795e49fe5462" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/SemicolonEcommerceMarketplaceProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/controller/CartItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/controller/ShoppingCartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/data/model/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/data/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/data/model/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/data/model/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/data/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/data/model/ProductCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/data/model/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/data/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/data/model/UserType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/data/repositories/CartItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/data/repositories/OrderItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/data/repositories/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/data/repositories/PaymentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/data/repositories/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/data/repositories/ShoppingCartRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/data/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/requests/CartItemRegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/requests/CartItemRemoveRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/requests/CartItemUpdateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/requests/ProductRegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/requests/ProductRemoveRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/requests/ProductUpdatesRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/requests/ShoppingCartRegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/requests/ShoppingCartRemoveRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/requests/ShoppingCartUpdateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/requests/UserLoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/requests/UserRegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/responses/APIResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/responses/CartItemRegisterResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/responses/CartItemRemoveResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/responses/CartItemUpdateResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/responses/ProductRegisterResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/responses/ProductRemoveResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/responses/ProductUpdateResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/responses/ShoppingCartRegisterResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/responses/ShoppingCartRemoveResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/responses/ShoppingCartUpdateResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/responses/UserLoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/dtos/responses/UserRegisterResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/exception/CartItemNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/exception/EmailAlreadyExist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/exception/EmailOrPasswordDoesNotExist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/exception/InvalidCartItemException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/exception/ProductAlreadyExistedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/exception/ProductDoesNotExistException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/exception/ProductIdNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/exception/ShoppingCartIdNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/exception/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/service/CartItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/service/CartItemServiceImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/service/ProductServiceImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/service/ShoppingCartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/service/ShoppingCartServiceImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/service/UserServiceImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/utils/Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/semicolon/africa/service/ProductServiceImplementationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/semicolon/africa/service/UserServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/service/ProductServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/service/ProductServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/utils/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/utils/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/semicolon/africa/service/ProductServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/semicolon/africa/service/ProductServiceImplementationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,37 +44,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.SemicolonEcommerceMarketplaceProject.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductServiceImplementationTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductServiceImplementationTest.testThatProductCanBeAddedToRepository.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductServiceImplementationTest.testThatProductCanBeUpdatedInTheRepository.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductServiceTest.testThatProductCanBeAddedToRepository.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserServiceImplementationTest.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.SemicolonEcommerceMarketplaceProject.executor&quot;: &quot;Run&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/DELL USER/IdeaProjects/SemicolonEcommerceMarketplaceProject/src/test/java/com/semicolon/africa/service&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL USER/IdeaProjects/SemicolonEcommerceMarketplaceProject/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/DELL USER/IdeaProjects/SemicolonEcommerceMarketplaceProject/src/main/java/com/semicolon/africa/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SemicolonEcommerceMarketplaceProject.executor": "Run",
+    "HTTP Request.generated-requests | #23.executor": "Run",
+    "JUnit.ProductServiceImplementationTest.executor": "Run",
+    "JUnit.ProductServiceImplementationTest.testThatProductCanBeAddedToRepository.executor": "Run",
+    "JUnit.ProductServiceImplementationTest.testThatProductCanBeRemovedFromRepository.executor": "Run",
+    "JUnit.ProductServiceImplementationTest.testThatProductCanBeUpdatedInTheRepository.executor": "Run",
+    "JUnit.ProductServiceTest.testThatProductCanBeAddedToRepository.executor": "Run",
+    "JUnit.UserServiceImplementationTest.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.SemicolonEcommerceMarketplaceProject.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/DELL USER/IdeaProjects/SemicolonEcommerceMarketplaceProject/src/test/java/com/semicolon/africa/service",
+    "last_opened_file_path": "C:/Users/DELL USER/IdeaProjects/SemicolonEcommerceMarketplaceProject/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/DELL USER/IdeaProjects/SemicolonEcommerceMarketplaceProject/src/main/java/com/semicolon/africa/Main.java",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\DELL USER\IdeaProjects\SemicolonEcommerceMarketplaceProject\src\main\resources" />
@@ -156,7 +96,10 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ProductServiceImplementationTest.testThatProductCanBeUpdatedInTheRepository">
-    <configuration name="ProductServiceImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="generated-requests | #23" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="23" requestIdentifier="#23" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="ProductServiceImplementationTest.testThatProductCanBeAddedToRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SemicolonEcommerceMarketplaceProject" />
       <extension name="coverage">
         <pattern>
@@ -166,7 +109,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.semicolon.africa.service" />
       <option name="MAIN_CLASS_NAME" value="com.semicolon.africa.service.ProductServiceImplementationTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testThatProductCanBeAddedToRepository" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceImplementationTest.testThatProductCanBeRemovedFromRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SemicolonEcommerceMarketplaceProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.semicolon.africa.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.semicolon.africa.service" />
+      <option name="MAIN_CLASS_NAME" value="com.semicolon.africa.service.ProductServiceImplementationTest" />
+      <option name="METHOD_NAME" value="testThatProductCanBeRemovedFromRepository" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -187,37 +147,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductServiceTest.testThatProductCanBeAddedToRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SemicolonEcommerceMarketplaceProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.semicolon.africa.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.semicolon.africa.service" />
-      <option name="MAIN_CLASS_NAME" value="com.semicolon.africa.service.ProductServiceTest" />
-      <option name="METHOD_NAME" value="testThatProductCanBeAddedToRepository" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SemicolonEcommerceMarketplaceProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.semicolon.africa.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.semicolon.africa.service" />
-      <option name="MAIN_CLASS_NAME" value="com.semicolon.africa.service.UserServiceImplementationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SemicolonEcommerceMarketplaceProject" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="SemicolonEcommerceMarketplaceProject" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.semicolon.africa.SemicolonEcommerceMarketplaceProject" />
@@ -234,10 +163,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ProductServiceImplementationTest.testThatProductCanBeUpdatedInTheRepository" />
-        <item itemvalue="JUnit.ProductServiceImplementationTest" />
-        <item itemvalue="JUnit.ProductServiceTest.testThatProductCanBeAddedToRepository" />
-        <item itemvalue="JUnit.UserServiceImplementationTest" />
+        <item itemvalue="JUnit.ProductServiceImplementationTest.testThatProductCanBeAddedToRepository" />
         <item itemvalue="Spring Boot.SemicolonEcommerceMarketplaceProject" />
+        <item itemvalue="JUnit.ProductServiceImplementationTest.testThatProductCanBeRemovedFromRepository" />
+        <item itemvalue="HTTP Request.generated-requests | #23" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +188,7 @@
       <updated>1736417082355</updated>
       <workItem from="1736417083377" duration="15764000" />
       <workItem from="1736450598455" duration="3179000" />
-      <workItem from="1736454005024" duration="601000" />
+      <workItem from="1736454005024" duration="16257000" />
     </task>
     <servers />
   </component>

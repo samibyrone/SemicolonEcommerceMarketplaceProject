@@ -27,12 +27,16 @@ public class Mapper {
         return userRegisterResponse;
     }
 
+    public static void mapLogin(UserLoginRequest userLoginRequest, User user) {
+        user.setEmail(userLoginRequest.getEmail());
+        user.setPassword(userLoginRequest.getPassword());
+    }
+
     public static UserLoginResponse mapLogin(User user) {
         UserLoginResponse userLoginResponse = new UserLoginResponse();
-        user.setEmail(user.getEmail());
-        user.setPassword(user.getPassword());
-        userLoginResponse.setMessage("Logged in Successfully");
+        userLoginResponse.setId(user.getId());
         userLoginResponse.setLoggedIn(true);
+        userLoginResponse.setMessage("Login Successfully");
         return userLoginResponse;
     }
 
@@ -60,18 +64,18 @@ public class Mapper {
         return productRegisterResponse;
     }
 
-    public static void mapProductUpdate(ProductUpdatesRequest productUpdate, Product product) {
-        product.setProductName(productUpdate.getProductName());
-        product.setProductDescription(productUpdate.getProductDescription());
-        product.setProductPrice(productUpdate.getProductPrice());
-        product.setProductStock(productUpdate.getProductStock());
-        product.setProductCategory(productUpdate.getProductCategory());
+    public static void mapProductUpdate(ProductUpdatesRequest productUpdatesRequest, Product product) {
+        product.setProductName(productUpdatesRequest.getProductName());
+        product.setProductDescription(productUpdatesRequest.getProductDescription());
+        product.setProductPrice(productUpdatesRequest.getProductPrice());
+        product.setProductStock(productUpdatesRequest.getProductStock());
+        product.setProductCategory(productUpdatesRequest.getProductCategory());
     }
 
     public static ProductUpdateResponse mapProductUpdate( Product product) {
         ProductUpdateResponse productResponse = new ProductUpdateResponse();
-        productResponse.setProductId(product.getProductId());
         productResponse.setMessage("Product Was Successfully Updated");
+        productResponse.setProductId(product.getProductId());
         return productResponse;
     }
 

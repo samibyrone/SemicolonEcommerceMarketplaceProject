@@ -4,8 +4,10 @@ package com.semicolon.africa.service;
 import com.semicolon.africa.data.model.ProductCategory;
 import com.semicolon.africa.data.repositories.ProductRepository;
 import com.semicolon.africa.dtos.requests.ProductRegisterRequest;
+import com.semicolon.africa.dtos.requests.ProductRemoveRequest;
 import com.semicolon.africa.dtos.requests.ProductUpdatesRequest;
 import com.semicolon.africa.dtos.responses.ProductRegisterResponse;
+import com.semicolon.africa.dtos.responses.ProductRemoveResponse;
 import com.semicolon.africa.dtos.responses.ProductUpdateResponse;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -64,18 +66,21 @@ public class ProductServiceImplementationTest {
         assertThat(productServiceImplementation.getAllProducts().size()).isEqualTo(1L);
     }
 
-//    @Test
-//    public void testThatProductCanBeRemovedFromRepository() {
-//        ProductRegister();
-//        ProductRemoveRequest removeRequest = new ProductRemoveRequest();
-//        removeRequest.setProductId("225");
-//        removeRequest.setProductName("Bread");
-//        removeRequest.setProductDescription("Sliced-Bread");
-//        removeRequest.setProductPrice(1500.0);
-//        removeRequest.setProductStock(1);
-//        removeRequest.setProductCategory(ProductCategory.SUPERMARKET);
-//        ProductRemoveResponse removeResponse = productServiceImplementation.deleteProduct("225");
-//        assertThat(removeResponse.getMessage()).contains("Product removed successfully");
-//    }
+    @Test
+    public void testThatProductCanBeRemovedFromRepository() {
+        ProductRegisterResponse productResponse = ProductRegister();
+        String productId = productResponse.getProductId();
+        ProductRemoveRequest removeRequest = new ProductRemoveRequest();
+        removeRequest.setProductName("Bread");
+        removeRequest.setProductDescription("Sliced-Bread");
+        removeRequest.setProductPrice(1500.0);
+        removeRequest.setProductStock(1);
+        removeRequest.setProductCategory(ProductCategory.SUPERMARKET);
+        ProductRemoveResponse removeResponse = productServiceImplementation.deleteProduct(productId, removeRequest);
+        System.out.println("Removing contact with ID: " + removeResponse);
+        assertThat(removeResponse).isNotNull();
+        assertThat(removeResponse.getMessage()).contains("Product removed successfully");
+        assertThat(productServiceImplementation.getAllProducts().size()).isEqualTo(0);
+    }
 
 }
