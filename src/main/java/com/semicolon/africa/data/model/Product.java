@@ -1,17 +1,28 @@
 package com.semicolon.africa.data.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
-import org.springframework.http.ResponseEntity;
 
-import java.util.Optional;
 
 @Data
-@Document
+@Entity
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@Table(name = "product")
 public class Product {
 
+
+    @jakarta.persistence.Id
+    private Long id;
     @Id
+    @GeneratedValue
     private String ProductId;
     private String productName;
     private String productDescription;
