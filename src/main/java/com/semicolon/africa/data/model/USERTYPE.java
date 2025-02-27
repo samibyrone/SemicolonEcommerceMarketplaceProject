@@ -1,6 +1,6 @@
 package com.semicolon.africa.data.model;
 
-public enum UserType {
+public enum USERTYPE {
 
     ADMIN,
     STAFF,

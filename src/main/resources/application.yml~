@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/jwt_security
     username: postgres
-    password: 781227
+    password:
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -13,3 +13,30 @@ spring:
         format_sql: true
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+#logging:
+#  level:
+#    org:
+#      hibernate:
+#        SQL: DEBUG
+#        type:
+#          descriptor:
+#            sql:
+#              BasicBinder: TRACE
+#      org:
+#      springframework:
+#        jdbc:
+#          core: DEBUG
+#
+
+
+
+
+
+
+
+
+
+
+#spring.application.name=SemicolonEcommerceMarketplace
+#server.port=8081
