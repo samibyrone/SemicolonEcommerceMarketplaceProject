@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import java.security.Key;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
@@ -29,6 +30,11 @@ public class JwtService {
         return claimsResolves.apply(claims);
     }
 
+//    generating token without extraClaims or generate from userDetails
+    public String generateToken(UserDetails userDetails) {
+        return generateToken(new HashMap<>(), userDetails);
+    }
+
 //    extracting or generating token
     public String generateToken(Map<String, Object> extractClaims, UserDetails userDetails) {
         return Jwts
@@ -36,9 +42,23 @@ public class JwtService {
                 .setClaims(extractClaims)
                 .setSubject(userDetails.getUsername())
                 .setIssuedAt(new Date(System.currentTimeMillis()))
-                .setExpiration(new Date(System.currentTimeMillis() + 1000 + 60 * 24))
+                .setExpiration(new Date(System.currentTimeMillis() + 1000 * 60 * 24))
                 .signWith(getSignInKey(), SignatureAlgorithm.HS256)
                 .compact();
+    }
+
+//    method to validate if Token belong to this user
+    public boolean isTokenValidated(String token, UserDetails userDetails) {
+        final String username = extractUsername(token);
+        return (username.equals(userDetails.getUsername())) && !isValidatedTokenExpired(token);
+    }
+
+    private boolean isValidatedTokenExpired(String token) {
+        return extractTokenExpiration(token).before(new Date());
+    }
+
+    private Date extractTokenExpiration(String token) {
+        return extractClaims(token, Claims::getExpiration);
     }
 
     private Claims extractAllClaims(String token) {
