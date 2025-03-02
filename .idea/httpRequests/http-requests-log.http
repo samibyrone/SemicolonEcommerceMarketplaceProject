@@ -1,0 +1,69 @@
+GET http://localhost:8080/api/map
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST http://localhost:8080/api/map/User-sign-up
+Content-Type: application/json
+Content-Length: 229
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "samson",
+  "lastName": "ibironke",
+  "userName": "samibyrone",
+  "email": "sammy@gmail.com",
+  "password": "123456789",
+  "phoneNumber": "08187606899",
+  "address": "312 sabo yaba, Lagos",
+  "role": "CUSTOMER"
+}
+
+###
+
+POST http://localhost:8080/api/map/User-sign-up
+Content-Type: application/json
+Content-Length: 229
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "samson",
+  "lastName": "ibironke",
+  "userName": "samibyrone",
+  "email": "sammy@gmail.com",
+  "password": "123456789",
+  "phoneNumber": "08187606899",
+  "address": "312 sabo yaba, Lagos",
+  "role": "CUSTOMER"
+}
+
+###
+
+POST http://localhost:8080/api/map/User-sign-up
+Content-Type: application/json
+Content-Length: 142
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "",
+  "lastName": "",
+  "userName": "",
+  "email": "",
+  "password": "",
+  "phoneNumber": "",
+  "address": "",
+  "role": ""
+}
+
+###
+

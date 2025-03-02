@@ -3,6 +3,7 @@ package com.semicolon.africa.utils;
 //import com.semicolon.africa.data.model.CartItem;
 //import com.semicolon.africa.data.model.Product;
 //import com.semicolon.africa.data.model.ShoppingCart;
+import com.semicolon.africa.data.model.USERTYPE;
 import com.semicolon.africa.data.model.User;
 import com.semicolon.africa.dtos.requests.*;
 import com.semicolon.africa.dtos.responses.*;
@@ -17,7 +18,7 @@ public class Mapper {
         user.setAddress(userRegisterRequest.getAddress());
         user.setPhoneNumber(userRegisterRequest.getPhoneNumber());
         user.setPassword(userRegisterRequest.getPassword());
-        user.setRole(userRegisterRequest.getRole());
+        user.setUserROle(USERTYPE.valueOf(userRegisterRequest.getRole()));
     }
 
     public static UserRegisterResponse map(User user) {
