@@ -37,7 +37,7 @@ public class User implements UserDetails {
 
     @Enumerated(EnumType.STRING)
     private USERTYPE userROle;
-    //    private List<Product> products = new ArrayList<>();
+        private List<Product> products = new ArrayList<>();
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
